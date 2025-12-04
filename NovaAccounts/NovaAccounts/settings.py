@@ -76,14 +76,7 @@ SIMPLE_JWT = {
 }
 
 # CORS Settings
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "https://ojt-proj-mq3xdxbhm-shreshtha-pratap-singhs-projects.vercel.app",
-    "https://ojt-proj-2ipuvq7v4-shreshtha-pratap-singhs-projects.vercel.app",
-    "https://ojt-proj.vercel.app",
-    "https://ojt-proj-git-main-shreshtha-pratap-singhs-projects.vercel.app",
-]
-
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
