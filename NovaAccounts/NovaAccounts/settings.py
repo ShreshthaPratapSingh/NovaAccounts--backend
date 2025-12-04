@@ -60,6 +60,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://ojt-proj-mq3xdxbhm-shreshtha-pratap-singhs-projects.vercel.app",
     'https://ojt-proj-2ipuvq7v4-shreshtha-pratap-singhs-projects.vercel.app',
     "https://ojt-proj.vercel.app/",
+    'https://ojt-proj-git-main-shreshtha-pratap-singhs-projects.vercel.app',
     
 ]
 
