@@ -57,6 +57,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://ojt-proj-mq3xdxbhm-shreshtha-pratap-singhs-projects.vercel.app/",
+    "https://ojt-proj.vercel.app/",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
