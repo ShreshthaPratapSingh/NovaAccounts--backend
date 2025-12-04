@@ -18,3 +18,10 @@ class UserTransactionView(ListAPIView):
 
     def get_queryset(self):
         return Transactions.objects.filter(user=self.request.user).order_by("-date")
+    
+class TransactionDetailView(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = TransactionSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        return Transactions.objects.filter(user=self.request.user)
