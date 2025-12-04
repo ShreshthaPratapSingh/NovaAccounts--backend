@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ci176)c=&ig0l_v8pq4@7t3c8fz)#0ft@3&5l6(vi4g85il(2k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['NovaAccounts.pythonanywhere.com']
 
 
 # Application definition
